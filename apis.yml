@@ -1,0 +1,32 @@
+aid: geodatasource
+name: GeoDataSource
+description: "Geocoding of city name by using latitude and longitude coordinates"
+url: https://www.geodatasource.com/web-service
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Geocoding"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Geocoding
+  - Public APIs
+apis:
+  - name: GeoDataSource
+    description: "Geocoding of city name by using latitude and longitude coordinates"
+    humanURL: https://www.geodatasource.com/web-service
+    baseURL: https://www.geodatasource.com/web-service
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: https://www.geodatasource.com/web-service
+common:
+  - type: Website
+    url: https://www.geodatasource.com/web-service
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
