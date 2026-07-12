@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://www.geodatasource.com/web-service
 common:
+  - type: DomainSecurity
+    url: security/geodatasource-domain-security.yml
   - type: Website
     url: https://www.geodatasource.com/web-service
   - type: PublicAPIsListing
