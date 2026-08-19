@@ -14,7 +14,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/geodatasou
 name: GeoDataSource
 description: "Geocoding of city name by using latitude and longitude coordinates"
 url: https://www.geodatasource.com/web-service
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-05-28'
 modified: '2026-05-28'
 x-source: public-apis/public-apis
