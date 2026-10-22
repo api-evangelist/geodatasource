@@ -16,9 +16,52 @@ edges:
   detected: '2026-10-15'
   detected_by: mirror-platform-listings.py
   category: WordPress plugin
+- partner_name: APIs.guru OpenAPI Directory
+  partner: apis-guru
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: third-party
+  evidence: https://apis.guru/
+  category: API definition directory listing (OpenAPI)
+  contract_reference:
+    register: APIs.guru OpenAPI Directory
+    spec_file: null
+    standard: APIs.guru OpenAPI Directory
+    role: listed-in-directory
+    directory_provider: geodatasource.com
+    matched_domain: geodatasource.com
+    matched_by: domain
+    apis_listed: 1
+    version_count: 1
+    first_added: '2019-01-04'
+    last_updated: '2019-02-25'
+    origin_publisher_hosted: false
+    origin_hosts:
+    - app.swaggerhub.com
+    categories:
+    - location
+    own_openapi_files: 0
+    listings:
+    - key: geodatasource.com
+      title: GeoDataSource Location Search
+      preferred: '1.0'
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/geodatasource.com/1.0/openapi.json
+      origin_url: https://app.swaggerhub.com/apiproxy/schema/file/geodatasource/geodatasource-location-search/1.0/swagger.yaml
+      openapi_version: 3.0.1
+    signal_note: 'participation only: a community directory listing (APIs.guru collects definitions; the provider
+      did not file them). Signals: version_count, apis_listed, origin_publisher_hosted.'
+    detected_by: sweep-openapi-directory-apis-guru.py
+    detected: '2026-10-22'
+  detected_by: sweep-openapi-directory-apis-guru.py
+  first_seen: '2026-10-22'
 generated: '2026-10-15'
 method: searched
 checked:
 - wordpress/integrations/wordpress-integration-edges.yml
+- https://api.apis.guru/v2/list.json
+- https://api.apis.guru/v2/providers.json
 source:
 - wordpress/integrations/wordpress-integration-edges.yml
